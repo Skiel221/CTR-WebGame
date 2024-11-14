@@ -58,7 +58,7 @@ const personajes = [
     },
     {
         "nombre": "Dr. N. Gin",
-        "biografia": "N. Gin es el científico y mecánico de Cortex. Tiene un cohete incrustado en la cabeza, consecuencia de un accidente de laboratorio.",
+        "biografia": "N. Gin es el científico y mecánico de Cortex. Tiene un cohete incrustado en la cabeza, consecuencia de un accidente.",
         "velocidad": 4,
         "aceleracion": 7,
         "giro": 4,

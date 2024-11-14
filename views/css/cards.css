@@ -111,6 +111,40 @@ body {
     background-color: rgba(0, 0, 0, .1);
 }
 
+.pj:active {
+    transform: scale(1.05);
+    border: 6px solid rgb(149, 243, 255);
+    background-color: rgba(0, 0, 0, .1);
+    animation: titilar 1s infinite;
+}
+
+.pj.active {
+    transform: scale(1.05);
+    border: 6px solid rgb(149, 243, 255);
+    background-color: rgba(0, 0, 0, .1);
+    animation: titilar 1s infinite step-end;
+}
+
+@keyframes titilar {
+    0% {
+        border: 6px solid rgb(149, 243, 255);
+        background-color: rgba(0, 0, 0, .1);
+        filter: drop-shadow(10px 10px 0px black);
+    }
+
+    50% {
+        border: 6px solid rgb(149, 243, 255);
+        background-color: rgba(0, 0, 0, .1);
+        filter: drop-shadow(10px 10px 0px black) brightness(1.4);
+    }
+
+    100% {
+        border: 6px solid rgb(149, 243, 255);
+        background-color: rgba(0, 0, 0, .1);
+        filter: drop-shadow(10px 10px 0px black);
+    }
+}
+
 .text-p {
     font-size: 20px;
 }
