@@ -135,7 +135,7 @@ body {
     50% {
         border: 6px solid rgb(149, 243, 255);
         background-color: rgba(0, 0, 0, .1);
-        filter: drop-shadow(10px 10px 0px black) brightness(1.4);
+        filter: drop-shadow(10px 10px 0px black) brightness(1.2);
     }
 
     100% {
